@@ -7,3 +7,6 @@ git branch -M main
 git add .
 git commit -m "chore: final project sync before deploy" || true
 git push -u origin main
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
